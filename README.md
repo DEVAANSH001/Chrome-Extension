@@ -46,4 +46,13 @@ The extension currently does not work with images and videos, but I plan to fix 
 5.Enjoy<br>
 
 
+<img src="Dark mode.png" >
+<br>
+<img src="after.png" >
+<br>
+<img src="wekipedia.png">
+<br>
+<img src="image.png" >
+
+
 
