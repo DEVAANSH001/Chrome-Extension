@@ -1,0 +1,44 @@
+* {
+  margin: none;
+  padding: none;
+}
+body {
+  min-width: 200px;
+  min-height: 180px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(42, 42, 43);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 10%;
+  text-align: center; 
+  margin-bottom: 10px; 
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  margin: 5px; 
+  margin-right: 3rem;
+  position: absolute;
+  bottom: 30%;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.5s ease; 
+  background-color: rgba(8, 78, 101, 0.2);
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(23, 27, 157, 0.4); 
+}
+
+button:active {
+  background-color: rgba(21, 197, 197, 0.6); 
+  transform: scale(0.9); 
+}

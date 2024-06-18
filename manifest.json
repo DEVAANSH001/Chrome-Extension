@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Pitch-Black",
+    "description": "Complete Black theme made by javascript",
+    
+    
+    "action": {
+      "default_popup" : "index.html"
+    },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "size.png"
+  }
+}
