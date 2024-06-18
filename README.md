@@ -28,8 +28,10 @@ The extension automatically applies the theme to websites in the whitelist on pa
 
 <h3>Key Functions</h3>
 Enable: Applies the theme to the website (e.g., enabling dark mode).
-Disable: Reverts the website to its default theme (e.g., disabling dark mode).
-Notes
+Disable: Reverts the website to its default theme (e.g., disabling dark mode).<br>
+
+Notes<br>
+
 Ensure the enable and disable functions are correctly defined to manage the theme changes.
 The whitelist function stored in Chrome's synced storage, making it consistent across devices where the user is signed in.
 
